@@ -1,0 +1,6 @@
+Performance MetricsExplain why these metrics matter for SSVF funding forecasting:$R^2$ Score (0.946): This indicates that 94.6% of the variance in SSVF award amounts is explained by our model's features (such as veteran population and medical expenditures).Mean Absolute Error (MAE): Include this to show the average dollar amount the model is "off" by. In a funding context, this helps budgeters understand the potential margin of error for a state's allocation.Root Mean Square Error (RMSE): Used to penalize larger forecasting errors, which is critical when underfunding a state could lead to a shortage of veteran services.
+| Model Name | R-Squared ($R^2$) | RMSE | Notes |
+| :--- | :---: | :---: | :--- |
+| **Panel OLS** | 0.720 | 145.2 | Baseline linear model |
+| **GMM PVAR** | 0.815 | 98.4 | Captured endogeneity |
+| **XGBoost (Final)** | **0.946** | **22.1** | Best performance |

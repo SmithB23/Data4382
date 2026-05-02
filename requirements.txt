@@ -1,0 +1,19 @@
+# Data Manipulation & Analysis
+pandas
+numpy
+scipy
+
+# Data Extraction
+pdfplumber
+openpyxl
+
+# Machine Learning & Explainability
+scikit-learn
+xgboost
+shap
+
+# Econometrics & Time Series
+statsmodels
+
+# R Interoperability (for GMM PVAR)
+rpy2
